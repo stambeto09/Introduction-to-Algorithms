@@ -46,7 +46,7 @@
                 currentElement = array[index];
                 previousIndex = index - 1;
 
-                while (previousIndex >= 0 && array[previousIndex] > currentElement)
+                while ((previousIndex >= 0) && (array[previousIndex] > currentElement))
                 {
                     array[previousIndex + 1] = array[previousIndex];
                     previousIndex--;
