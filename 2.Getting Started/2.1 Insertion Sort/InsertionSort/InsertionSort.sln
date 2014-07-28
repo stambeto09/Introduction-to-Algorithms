@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-2.DescendingInsertionSort", "2.1-2.DescendingInsertionSort\2.1-2.DescendingInsertionSort.csproj", "{198832E4-ED0E-4894-860B-B0C51682BA25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-3.SearchingProblem", "2.1-3.SearchingProblem\2.1-3.SearchingProblem.csproj", "{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{198832E4-ED0E-4894-860B-B0C51682BA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198832E4-ED0E-4894-860B-B0C51682BA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198832E4-ED0E-4894-860B-B0C51682BA25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
