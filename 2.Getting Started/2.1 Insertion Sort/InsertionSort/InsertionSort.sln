@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-2.DescendingInsertionSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-3.SearchingProblem", "2.1-3.SearchingProblem\2.1-3.SearchingProblem.csproj", "{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-4.AddingTwoBinaryDigits", "AddingTwoBinaryDigits\2.1-4.AddingTwoBinaryDigits.csproj", "{34BF7394-3698-4D3A-908D-2CD7047E4338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A181CC0D-5EE7-4BD9-A688-DA116274BF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BF7394-3698-4D3A-908D-2CD7047E4338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BF7394-3698-4D3A-908D-2CD7047E4338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BF7394-3698-4D3A-908D-2CD7047E4338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BF7394-3698-4D3A-908D-2CD7047E4338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
