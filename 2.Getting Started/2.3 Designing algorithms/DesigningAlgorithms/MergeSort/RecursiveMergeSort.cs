@@ -1,4 +1,4 @@
-﻿namespace MergeSort
+﻿namespace DesigningAglorithms
 {
     using System;
 
