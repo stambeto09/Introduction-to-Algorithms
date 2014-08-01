@@ -18,13 +18,19 @@
                                30, 90, 65, 9, 84, 37, 37, 73, 46, 30, 78, 49, 87, 59, 1 };
             int minIndex = 0;
             int maxIndex = numbers.Length - 1;
+            int key = 97;
 
-            int key = 59;
             // In order to use Binary search, we have to sort our array.
             Array.Sort(numbers);
-
-            int result = BinarySearch(numbers, key, minIndex, maxIndex);
-            Console.WriteLine("The key is at position: {0}", result);
+            if ((numbers[minIndex] > key) || (numbers[maxIndex] < key))
+            {
+                Console.WriteLine("The key is not in the sequence of numbers.");
+            }
+            else
+            {
+                int result = BinarySearch(numbers, key, minIndex, maxIndex);
+                Console.WriteLine("The key is at position: {0}", result);
+            }
         }
 
         public static int BinarySearch(int[] array, int key, int minIndex, int maxIndex)
