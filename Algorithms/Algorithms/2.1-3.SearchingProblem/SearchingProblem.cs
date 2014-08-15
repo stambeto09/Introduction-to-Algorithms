@@ -1,4 +1,4 @@
-﻿namespace _2._1_3.SearchingProblem
+﻿namespace GettingStarted
 {
     using System;
     /// <summary>
@@ -14,8 +14,8 @@
         static void Main()
         {
             int[] array = { 2, 10, 15, 3, 7, 14, 5, 9, 6 };
-            int value = 0;
-            Console.WriteLine(LinearSearch(array, value));
+            int value = 7;
+            Console.WriteLine("The element is at position: {0}", LinearSearch(array, value));
         }
 
         public static string LinearSearch(int[] array, int value)

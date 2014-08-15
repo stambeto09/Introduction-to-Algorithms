@@ -1,4 +1,4 @@
-﻿namespace _2._1_2.DescendingInsertionSort
+﻿namespace GettingStarted
 {
     using System;
 

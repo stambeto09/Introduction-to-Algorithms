@@ -1,4 +1,4 @@
-﻿namespace AddingTwoBinaryDigits
+﻿namespace GettingStarted
 {
     using System;
     /// <summary>

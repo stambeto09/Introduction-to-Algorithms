@@ -13,19 +13,21 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-3.SearchingProblem", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1-4.AddingTwoBinaryDigits", "2.1-4.AddingTwoBinaryDigits\2.1-4.AddingTwoBinaryDigits.csproj", "{34BF7394-3698-4D3A-908D-2CD7047E4338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-2 MergeSort", "2.3-2 MergeSort\2.3-2 MergeSort.csproj", "{6D28C922-6FE9-405B-B537-ECBFC76CD1A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-2.MergeSort", "2.3-2 MergeSort\2.3-2.MergeSort.csproj", "{6D28C922-6FE9-405B-B537-ECBFC76CD1A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-4 RecursiveInsertionSort", "2.3-4 RecursiveInsertionSort\2.3-4 RecursiveInsertionSort.csproj", "{E2105947-BC14-4A96-A32B-D9A1B33EFFED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-4.RecursiveInsertionSort", "2.3-4 RecursiveInsertionSort\2.3-4.RecursiveInsertionSort.csproj", "{E2105947-BC14-4A96-A32B-D9A1B33EFFED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-5 BinarySearch", "2.3-5 BinarySearch\2.3-5 BinarySearch.csproj", "{56120390-7DFE-4ACF-A05A-74F2E0BAD5C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-5.BinarySearch", "2.3-5 BinarySearch\2.3-5.BinarySearch.csproj", "{56120390-7DFE-4ACF-A05A-74F2E0BAD5C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-7 SumOfTwoIntegersInArray", "2.3-7 SumOfTwoIntegersInArray\2.3-7 SumOfTwoIntegersInArray.csproj", "{7EBD644D-7054-4745-A1A9-D2AB4D005210}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.3-7.SumOfTwoIntegersInArray", "2.3-7 SumOfTwoIntegersInArray\2.3-7.SumOfTwoIntegersInArray.csproj", "{7EBD644D-7054-4745-A1A9-D2AB4D005210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2-2 SelectionSort", "2.2-2 SelectionSort\2.2-2 SelectionSort.csproj", "{0F6AFAB7-9546-4B75-8ECC-441C212C1686}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2-2.SelectionSort", "2.2-2 SelectionSort\2.2-2.SelectionSort.csproj", "{0F6AFAB7-9546-4B75-8ECC-441C212C1686}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-2.Correctness of bubblesort", "2-2.CorrectnessOfBubblesort\2-2.Correctness of bubblesort.csproj", "{AA2C62FA-77FB-4DD3-B5BB-3CA40CE44452}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{BAF792E0-58A0-43E7-9FCD-AFCA0EA42F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1-2.BruteForceMaxSubarray", "4.1-2.BruteForceMaxSubarray\4.1-2.BruteForceMaxSubarray.csproj", "{2737975D-EBFF-4240-A592-9A4857597A17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{BAF792E0-58A0-43E7-9FCD-AFCA0EA42F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF792E0-58A0-43E7-9FCD-AFCA0EA42F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF792E0-58A0-43E7-9FCD-AFCA0EA42F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2737975D-EBFF-4240-A592-9A4857597A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2737975D-EBFF-4240-A592-9A4857597A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2737975D-EBFF-4240-A592-9A4857597A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2737975D-EBFF-4240-A592-9A4857597A17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
