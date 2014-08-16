@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2.StrassenMatrixMultiplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2-7.ComplexNumbersMultiplication", "4.2-7.ComplexNumbersMultiplication\4.2-7.ComplexNumbersMultiplication.csproj", "{95D3C649-C5E1-47C3-87B4-0998BA086E53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.6.MongeArray", "4.6.MongeArray\4.6.MongeArray.csproj", "{94A68018-FC2F-40CB-B656-05CAA448961A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{95D3C649-C5E1-47C3-87B4-0998BA086E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D3C649-C5E1-47C3-87B4-0998BA086E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D3C649-C5E1-47C3-87B4-0998BA086E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A68018-FC2F-40CB-B656-05CAA448961A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A68018-FC2F-40CB-B656-05CAA448961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A68018-FC2F-40CB-B656-05CAA448961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A68018-FC2F-40CB-B656-05CAA448961A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
