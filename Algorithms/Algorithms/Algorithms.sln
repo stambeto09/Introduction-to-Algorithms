@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2-7.ComplexNumbersMultipl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.6.MongeArray", "4.6.MongeArray\4.6.MongeArray.csproj", "{94A68018-FC2F-40CB-B656-05CAA448961A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomHireAssistant", "RandomHireAssistand\RandomHireAssistant.csproj", "{21D435CD-2CAA-4DC6-AD32-A66826165BDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{94A68018-FC2F-40CB-B656-05CAA448961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94A68018-FC2F-40CB-B656-05CAA448961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94A68018-FC2F-40CB-B656-05CAA448961A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
