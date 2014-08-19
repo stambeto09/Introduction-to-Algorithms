@@ -37,6 +37,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.6.MongeArray", "4.6.Monge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomHireAssistant", "RandomHireAssistand\RandomHireAssistant.csproj", "{21D435CD-2CAA-4DC6-AD32-A66826165BDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermuteBySorting", "PermuteBySorting\PermuteBySorting.csproj", "{F6A54FB3-27B9-4EC5-BF5D-5F28A689BA54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomizeInPlace", "RandomizeInPlace\RandomizeInPlace.csproj", "{C546BDA1-B35C-4DFA-A9EC-DCA4B988DF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3-2.PermuteWithoutIdentity", "5.3-2.PermuteWithoutIdentity\5.3-2.PermuteWithoutIdentity.csproj", "{A45BAFEF-9197-4412-BC05-EC3FA32C227D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +117,18 @@ Global
 		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D435CD-2CAA-4DC6-AD32-A66826165BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A54FB3-27B9-4EC5-BF5D-5F28A689BA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A54FB3-27B9-4EC5-BF5D-5F28A689BA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A54FB3-27B9-4EC5-BF5D-5F28A689BA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A54FB3-27B9-4EC5-BF5D-5F28A689BA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C546BDA1-B35C-4DFA-A9EC-DCA4B988DF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C546BDA1-B35C-4DFA-A9EC-DCA4B988DF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C546BDA1-B35C-4DFA-A9EC-DCA4B988DF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C546BDA1-B35C-4DFA-A9EC-DCA4B988DF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45BAFEF-9197-4412-BC05-EC3FA32C227D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45BAFEF-9197-4412-BC05-EC3FA32C227D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45BAFEF-9197-4412-BC05-EC3FA32C227D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45BAFEF-9197-4412-BC05-EC3FA32C227D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
