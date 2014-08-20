@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3-3.PermuteWithAll", "5.3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3-4.PermuteByCyclic", "5.3-4.PermuteByCyclic\5.3-4.PermuteByCyclic.csproj", "{6434C1C3-D15A-42AF-88D6-787F4A27DCDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.RandomSearch", "5.2.RandomSearch\5.2.RandomSearch.csproj", "{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{6434C1C3-D15A-42AF-88D6-787F4A27DCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6434C1C3-D15A-42AF-88D6-787F4A27DCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6434C1C3-D15A-42AF-88D6-787F4A27DCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
