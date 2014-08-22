@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3-4.PermuteByCyclic", "5.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.RandomSearch", "5.2.RandomSearch\5.2.RandomSearch.csproj", "{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heapsort", "HeapSort\Heapsort.csproj", "{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DAFEE9D-F42C-41C9-B675-0589777A9DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
