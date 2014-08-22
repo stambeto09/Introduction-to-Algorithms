@@ -6,39 +6,55 @@
     {
         static void Main()
         {
-            int[] array = new int[] { 4, 1, 3, 2, 16, 9, 10, 14, 8, 7 };
+            int[] array = new int[] { 5, 3, 17, 10, 84, 19, 6, 22, 9 };
             BuildMaxHeap(array);
+            Sort(array);
 
-            for (int index = 0; index < array.Length; index++)
+            for (int index = 0; index <= array.Length - 1; index++)
             {
                 Console.WriteLine(array[index]);
             }
         }
 
-        private static void BuildMaxHeap(int[] array)
+        private static void Sort(int[] array)
         {
-            for (int index = array.Length / 2; index >= 0; index--)
+            int heapSize = array.Length;
+            for (int index = array.Length - 1; index > 0; index--)
             {
-                MaxHeapify(array, index);
+                int thirdVariable = array[index];
+                array[index] = array[0];
+                array[0] = thirdVariable;
+
+                heapSize--;
+                MaxHeapify(array, heapSize, 0);
             }
         }
 
-        private static void MaxHeapify(int[] array, int index)
+        private static void BuildMaxHeap(int[] array)
+        {
+            int heapSize = array.Length;
+            for (int index = array.Length / 2; index >= 0; index--)
+            {
+                MaxHeapify(array, heapSize, index);
+            }
+        }
+
+        private static void MaxHeapify(int[] array, int heapSize, int index)
         {
             int leftIndex = Left(index);
             int rightIndex = Right(index);
             int largest = 0;
 
-            if (leftIndex <= array.Length - 1 && array[leftIndex] > array[index])
+            if (leftIndex < heapSize && array[leftIndex] > array[index])
             {
-                largest = leftIndex;                
+                largest = leftIndex;
             }
             else
             {
                 largest = index;
             }
 
-            if (rightIndex <= array.Length - 1 && array[rightIndex] > array[largest])
+            if (rightIndex < heapSize && array[rightIndex] > array[largest])
             {
                 largest = rightIndex;
             }
@@ -50,7 +66,7 @@
                 array[index] = array[largest];
                 array[largest] = thirdVariable;
 
-                MaxHeapify(array, largest);
+                MaxHeapify(array, heapSize, largest);
             }
         }
 
