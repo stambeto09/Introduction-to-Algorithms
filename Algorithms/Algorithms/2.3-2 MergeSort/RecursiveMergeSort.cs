@@ -2,11 +2,11 @@
 {
     using System;
 
-    class RecursiveMergeSort
+    public class RecursiveMergeSort
     {
         static void Main()
         {
-            int[] array = { 9, 5, 3, 10, 6, 15, 2 };
+            int[] array = { 9, 5, 3, 10, 6, 15, 2, 13 };
             int startIndex = 0;
             int endIndex = array.Length - 1;
             MergeSort(array, startIndex, endIndex);
@@ -19,13 +19,14 @@
 
         public static void MergeSort(int[] array, int startIndex, int endIndex)
         {
+            
             if (startIndex < endIndex)
             {
                 int middleIndex = (startIndex + endIndex) / 2;
                 MergeSort(array, startIndex, middleIndex);
                 MergeSort(array, middleIndex + 1, endIndex);
-                // Merge(array, startIndex, middleIndex, endIndex);
-                MergeWithSentilens(array, startIndex, middleIndex, endIndex);
+                Merge(array, startIndex, middleIndex, endIndex);
+                //MergeWithSentilens(array, startIndex, middleIndex, endIndex);
             }
         }
 
