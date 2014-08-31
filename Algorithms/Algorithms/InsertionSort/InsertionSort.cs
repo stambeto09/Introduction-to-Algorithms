@@ -3,7 +3,7 @@
     using System;
     using System.Diagnostics;
 
-    class InsertionSort
+    public class InsertionSort
     {
         static void Main()
         {
@@ -33,7 +33,7 @@
             UseInsertionSort(arrayOfHundredRandomNumbers);
         }
 
-        private static void UseInsertionSort(int[] array)
+        public static void UseInsertionSort(int[] array)
         {
             int currentElement = 0;
             int previousIndex = 0;
@@ -60,7 +60,7 @@
             }
 
             stopwatch.Stop();
-            Console.WriteLine("Elapsed Time in milliseconds: {0}", stopwatch.ElapsedMilliseconds);
+            Console.WriteLine("Elapsed Time: {0}", stopwatch.Elapsed);
         }
     }
 }
