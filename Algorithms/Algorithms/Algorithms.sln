@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.RandomSearch", "5.2.Ran
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heapsort", "HeapSort\Heapsort.csproj", "{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapsortUsingTree", "HeapsortUsingTree\HeapsortUsingTree.csproj", "{8B9B2568-8892-4E6B-A0BC-6A0A2E8DD115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{674A54C9-DC53-45D0-BF5C-5D32706FAA03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DBA3CA2-3711-4B84-8D97-4A4BB87F82C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9B2568-8892-4E6B-A0BC-6A0A2E8DD115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9B2568-8892-4E6B-A0BC-6A0A2E8DD115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9B2568-8892-4E6B-A0BC-6A0A2E8DD115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9B2568-8892-4E6B-A0BC-6A0A2E8DD115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674A54C9-DC53-45D0-BF5C-5D32706FAA03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674A54C9-DC53-45D0-BF5C-5D32706FAA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674A54C9-DC53-45D0-BF5C-5D32706FAA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674A54C9-DC53-45D0-BF5C-5D32706FAA03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

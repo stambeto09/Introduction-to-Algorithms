@@ -1,37 +1,19 @@
-﻿namespace PriorityQueue
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PriorityQueue
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
-    public class Tree
+    class Tree<T>
     {
-        public Tree()
-        {
-            
-        }
-
-        public Tree(List<Node<int>> nodes)
-            : this()
+        public Tree(List<Node<T>> nodes)
         {
             this.Nodes = nodes;
         }
 
-        public List<Node<int>> Nodes { get; set; }
+        public List<Node<T>> Nodes { get; set; }
 
-        public int HeapSize
-        {
-            get
-            {
-                return this.Nodes.Count;
-            }
-
-            private set
-            {
-                this.HeapSize = value;
-            }
-        }
     }
 }

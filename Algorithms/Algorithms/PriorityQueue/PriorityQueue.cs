@@ -1,42 +1,37 @@
-﻿namespace PriorityQueue
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-    class PriorityQueue<T> where T : IComparable<T>
+namespace PriorityQueue
+{
+    class PriorityQueue<T> : IEnumerable<T>
     {
-        private Tree tree;
+        private Tree<T> tree;
 
         public PriorityQueue()
         {
-            this.tree = new Tree(new List<Node<int>>());
-        }
-        public PriorityQueue(Tree tree)
-        {
-            this.tree = tree;
+            this.tree = new Tree<T>(new List<Node<T>>());
         }
 
         public void Add(T value)
         {
-            throw new NotImplementedException();
+            this.tree.Nodes.Add(new Node<T>(value));
         }
 
-        public void Maximum()
+        public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            foreach (var node in this.tree.Nodes)
+            {
+                yield return node.Value;
+            }
+
         }
 
-        public void ExtractMaxValue()
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
-        }
-
-        public void IncreaseKey(int index, T key)
-        {
-            throw new NotImplementedException();
+            return this.GetEnumerator();
         }
     }
 }

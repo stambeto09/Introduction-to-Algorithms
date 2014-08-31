@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2E96FF7-B902-465F-835D-764D9062C276}</ProjectGuid>
+    <ProjectGuid>{674A54C9-DC53-45D0-BF5C-5D32706FAA03}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PriorityQueue</RootNamespace>
