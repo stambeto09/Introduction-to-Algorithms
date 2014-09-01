@@ -10,18 +10,16 @@ namespace PriorityQueue
     {
         static void Main()
         {
-            Tree<int> tree = new Tree<int>(new List<Node<int>>());
             PriorityQueue<int> queue = new PriorityQueue<int>();
-            queue.Add(5);
+            queue.Add(10);
             queue.Add(15);
             queue.Add(25);
+            queue.Add(345);
 
-            foreach (var value in queue)
+            foreach (var item in queue)
             {
-                Console.WriteLine(value);
+                Console.WriteLine(item);
             }
-
-
         }
     }
 }

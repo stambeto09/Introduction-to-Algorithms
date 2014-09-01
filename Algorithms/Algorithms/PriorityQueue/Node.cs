@@ -8,12 +8,12 @@ namespace PriorityQueue
 {
     class Node<T>
     {
-        public Node(T value)
+        public Node(int value)
         {
             this.Value = value;
         }
 
-        public T Value { get; set; }
+        public int Value { get; set; }
 
     }
 }
