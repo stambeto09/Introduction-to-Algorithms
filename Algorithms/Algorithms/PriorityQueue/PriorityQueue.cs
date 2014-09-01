@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PriorityQueue
+﻿namespace PriorityQueue
 {
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Text;
+
     class PriorityQueue<T> : IEnumerable
     {
         private Tree tree;
@@ -37,7 +35,7 @@ namespace PriorityQueue
                 throw new ArgumentException("Heap underflow");
             }
 
-            // MaxHeapify(this.tree.Nodes, 0);
+            //MaxHeapify(this.tree.Nodes, 0);
             this.tree.Nodes.RemoveAt(index);
         }
 
@@ -93,7 +91,6 @@ namespace PriorityQueue
 
         public void IncreaseKey(int index, int value)
         {
-
             this.tree.Nodes[index].Value = value;
 
             while (index > 0 && this.tree.Nodes[Parent(index)].Value < this.tree.Nodes[index].Value)

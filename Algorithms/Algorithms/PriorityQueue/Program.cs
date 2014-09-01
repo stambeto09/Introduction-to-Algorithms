@@ -32,16 +32,7 @@ namespace PriorityQueue
             queue.Insert(1000);
             Console.WriteLine("Maximum: {0}", queue.Maximum());
 
-            Console.WriteLine();
-            foreach (var item in queue)
-            {
-                Console.WriteLine(item);
-            }
-
-            Console.WriteLine();
-            Console.WriteLine("Delete");
-            queue.Delete(3);
-
+            Console.WriteLine(queue.ToString());
 
         }
     }
