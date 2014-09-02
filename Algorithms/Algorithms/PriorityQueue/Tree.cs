@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    class Tree
+    public class Tree
     {
         public Tree(List<Node<int>> nodes)
         {

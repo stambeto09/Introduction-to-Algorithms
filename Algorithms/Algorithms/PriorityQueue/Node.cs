@@ -1,6 +1,6 @@
 ﻿namespace PriorityQueue
 {
-    class Node<T>
+    public class Node<T>
     {
         public Node(int value)
         {

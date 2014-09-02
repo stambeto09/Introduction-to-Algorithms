@@ -5,9 +5,9 @@
     using System.Collections.Generic;
     using System.Text;
 
-    class PriorityQueue<T> : IEnumerable
+    public class PriorityQueue<T> : IEnumerable
     {
-        private Tree tree;
+        protected Tree tree;
 
         public PriorityQueue()
         {
@@ -28,7 +28,7 @@
         /// max-heap.
         /// </summary>
         /// <param name="index">Holds the index of the element that we are going to delete</param>
-        public void Delete(int index)
+        internal void Delete(int index)
         {
             if (this.tree.HeapSize <= 0)
             {
@@ -39,12 +39,12 @@
             this.tree.Nodes.RemoveAt(index);
         }
 
-        public int Maximum()
+        internal int Maximum()
         {
             return this.tree.Nodes[0].Value;
         }
 
-        public int ExtractMax()
+        public virtual int ExtractMax()
         {
             if (this.tree.HeapSize <= 0)
             {
@@ -89,7 +89,7 @@
             }
         }
 
-        public void IncreaseKey(int index, int value)
+        public virtual void IncreaseKey(int index, int value)
         {
             this.tree.Nodes[index].Value = value;
 
