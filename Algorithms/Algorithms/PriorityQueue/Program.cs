@@ -11,6 +11,7 @@ namespace PriorityQueue
         static void Main()
         {
             PriorityQueue<int> queue = new PriorityQueue<int>();
+            
             queue.Insert(5);
             queue.Insert(10);
             queue.Insert(5);

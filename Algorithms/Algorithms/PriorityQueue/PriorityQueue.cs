@@ -58,7 +58,7 @@
             return maxValue;
         }
 
-        private void MaxHeapify(List<Node<int>> nodes, int index)
+        protected void MaxHeapify(List<Node<int>> nodes, int index)
         {
             int leftIndex = Left(index);
             int rightIndex = Right(index);
