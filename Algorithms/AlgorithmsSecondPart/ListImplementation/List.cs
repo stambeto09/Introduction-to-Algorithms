@@ -10,7 +10,7 @@ namespace DataStructuresReview
     public class List<T> : IEnumerable where T : IComparable
     {
         private const int InitialSize = 4;
-        public int tail;
+        private int tail;
         private T[] array;
 
         public List()
