@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quicksort", "Quicksort\Quic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListImplementation", "ListImplementation\ListImplementation.csproj", "{CE6FC045-FADC-4FEA-A676-F3E1C2DB70CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecreasingQuicksort", "DecreasingQuicksort\DecreasingQuicksort.csproj", "{831DA541-9862-491C-9819-0DAC1D0072BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE6FC045-FADC-4FEA-A676-F3E1C2DB70CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE6FC045-FADC-4FEA-A676-F3E1C2DB70CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE6FC045-FADC-4FEA-A676-F3E1C2DB70CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831DA541-9862-491C-9819-0DAC1D0072BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831DA541-9862-491C-9819-0DAC1D0072BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831DA541-9862-491C-9819-0DAC1D0072BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831DA541-9862-491C-9819-0DAC1D0072BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
