@@ -1,5 +1,7 @@
 ﻿namespace TreeImplementation
 {
+    using System;
+
     class Program
     {
         static void Main()
@@ -18,7 +20,7 @@
 
             tree.PrintDFS();
 
-
+            tree.PrintLeafs();
         }
     }
 }
