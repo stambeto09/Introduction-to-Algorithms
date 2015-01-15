@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListImplementation", "ListI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecreasingQuicksort", "DecreasingQuicksort\DecreasingQuicksort.csproj", "{831DA541-9862-491C-9819-0DAC1D0072BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeImplementation", "TreeImplementation\TreeImplementation.csproj", "{90F30A99-E465-4A00-A9E6-614185D16E1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{831DA541-9862-491C-9819-0DAC1D0072BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{831DA541-9862-491C-9819-0DAC1D0072BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{831DA541-9862-491C-9819-0DAC1D0072BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F30A99-E465-4A00-A9E6-614185D16E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F30A99-E465-4A00-A9E6-614185D16E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F30A99-E465-4A00-A9E6-614185D16E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F30A99-E465-4A00-A9E6-614185D16E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
