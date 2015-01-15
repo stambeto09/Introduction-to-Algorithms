@@ -5,18 +5,20 @@
         static void Main()
         {
             Tree<int> tree =
-                new Tree<int>(10,
-                    new Tree<int>(11,
-                        new Tree<int>(14),
-                        new Tree<int>(15)),
-                    new Tree<int>(12,
-                        new Tree<int>(16),
-                        new Tree<int>(17)),
-                    new Tree<int>(13,
-                        new Tree<int>(18),
-                        new Tree<int>(19)));
+                new Tree<int>(10, 1,
+                    new Tree<int>(11, 2,
+                        new Tree<int>(14, 5),
+                        new Tree<int>(15, 6)),
+                    new Tree<int>(12, 3,
+                        new Tree<int>(16, 7),
+                        new Tree<int>(17, 8)),
+                    new Tree<int>(13, 4,
+                        new Tree<int>(18, 9),
+                        new Tree<int>(19, 10)));
 
             tree.PrintDFS();
+
+
         }
     }
 }
