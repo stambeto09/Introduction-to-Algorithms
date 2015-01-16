@@ -27,6 +27,8 @@
             Console.WriteLine("Swapping");
 
             tree.PrintDFS();
+
+            Console.WriteLine(tree.Count());
         }
     }
 }
