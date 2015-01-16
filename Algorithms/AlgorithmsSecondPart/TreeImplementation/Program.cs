@@ -21,6 +21,12 @@
             tree.PrintDFS();
 
             tree.PrintLeafs();
+
+            tree.SwapValuesByIndices(3, 8);
+
+            Console.WriteLine("Swapping");
+
+            tree.PrintDFS();
         }
     }
 }
