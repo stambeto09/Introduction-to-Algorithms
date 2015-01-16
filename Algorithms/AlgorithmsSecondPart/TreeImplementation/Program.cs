@@ -29,6 +29,13 @@
             tree.PrintDFS();
 
             Console.WriteLine(tree.Count());
+            Console.WriteLine(tree.Count());
+
+            int[] arr = tree.ToArray();
+            foreach (var item in arr)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
