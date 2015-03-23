@@ -1,0 +1,6 @@
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\BinarySearchTree\bin\Debug\BinarySearchTree.exe.config
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\BinarySearchTree\bin\Debug\BinarySearchTree.exe
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\BinarySearchTree\obj\Debug\BinarySearchTree.exe
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\BinarySearchTree\obj\Debug\BinarySearchTree.pdb
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\BinarySearchTree\obj\Debug\BinarySearchTree.csprojResolveAssemblyReference.cache
