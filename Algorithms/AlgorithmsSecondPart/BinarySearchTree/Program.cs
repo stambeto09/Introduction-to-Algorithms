@@ -17,9 +17,7 @@
             binaryTree.Insert(6);
             binaryTree.Insert(2);
             binaryTree.Insert(25);
-
             binaryTree.Print();
-            Console.WriteLine(binaryTree.TreeMaximum());
 
             Console.WriteLine(binaryTree.TreeSearch(6));
         }

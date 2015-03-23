@@ -153,5 +153,80 @@
                 return TreeSearch(root.rightChild, key);
             }
         }
+
+        public void Remove(T value)
+        {
+            BinaryTreeNode<T> nodeToDelete = TreeSearch(value);
+            if (nodeToDelete == null)
+            {
+                return;
+            }
+
+            Remove(nodeToDelete);
+        }
+
+        private void Remove(BinaryTreeNode<T> node)
+        {
+            // Case which occurs when node has two children
+            if (node.leftChild != null && node.rightChild != null)
+            {
+                BinaryTreeNode<T> replacement = node.rightChild;
+                while (replacement.leftChild != null)
+                {
+                    replacement = replacement.leftChild;
+                }
+
+                node.value = replacement.value;
+                node = replacement;
+            }
+
+            // Case which occurs if the node has at most one child
+            BinaryTreeNode<T> theChild = node.leftChild != null ?
+                node.leftChild : node.rightChild;
+
+            // If the element to be deleted has one child
+            if (theChild != null)
+            {
+                theChild.parent = node.parent;
+
+                // Handles the case when the element is the root
+                if (node.parent != null)
+                {
+                    root = theChild;
+                }
+                else
+                {
+                    // Replaces the element with its child subtree
+                    if (node.parent.leftChild == node)
+                    {
+                        node.parent.leftChild = theChild;
+                    }
+                    else
+                    {
+                        node.parent.rightChild = theChild;
+                    }
+                }
+            }
+            else
+            {
+                // Handles the case when the element is the root
+                if (node.parent == null)
+                {
+                    root = null;
+                }
+                else
+                {
+                    // Remove the element - it is a leaf
+                    if (node.parent.leftChild == node)
+                    {
+                        node.parent.leftChild = null;
+                    }
+                    else
+                    {
+                        node.parent.rightChild = null;
+                    }
+                }
+            }
+        }
     }
 }
