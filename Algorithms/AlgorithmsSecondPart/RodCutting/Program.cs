@@ -1,17 +1,13 @@
 ﻿namespace RodCutting
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     class Program
     {
         static void Main(string[] args)
         {
-            int[] prices = new int[] { 1, 5, 8, 9, 10, 17, 20, 24, 30 };
-            int length = 3;
+            int[] prices = new int[] { 1, 5, 8, 9, 10, 17, 17, 20, 24, 30 };
+            int length = 4;
 
             int maximalRevenue = CutRod(prices, length);
             Console.WriteLine(maximalRevenue);
@@ -24,9 +20,9 @@
                 return 0;
             }
             int revenue = Int32.MinValue;
-            for (int i = 1; i <= length; i++)
+            for (int i = 0; i < length; i++)
             {
-                revenue = Math.Max(revenue, prices[i] + CutRod(prices, length - i));
+                revenue = Math.Max(revenue, prices[i] + CutRod(prices, length - i - 1));
             }
 
             return revenue;
