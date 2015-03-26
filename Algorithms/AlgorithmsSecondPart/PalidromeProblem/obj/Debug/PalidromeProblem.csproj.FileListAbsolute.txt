@@ -1,0 +1,6 @@
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\PalidromeProblem\bin\Debug\PalidromeProblem.exe.config
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\PalidromeProblem\bin\Debug\PalidromeProblem.exe
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\PalidromeProblem\bin\Debug\PalidromeProblem.pdb
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\PalidromeProblem\obj\Debug\PalidromeProblem.csprojResolveAssemblyReference.cache
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\PalidromeProblem\obj\Debug\PalidromeProblem.exe
+E:\GitHub\Introduction-to-Algorithms\Algorithms\AlgorithmsSecondPart\PalidromeProblem\obj\Debug\PalidromeProblem.pdb
